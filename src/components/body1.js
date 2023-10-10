@@ -37,7 +37,9 @@ export default class Body1 extends Component {
 
                         <div className='col-lg-8 col-12 row justify-content-center'>
 
-                            <iframe id="yt-video" src="https://www.youtube.com/embed/tGLB29V_3IQ?si=iTbv3khcyKSBfsFh"
+
+
+                            <iframe id="yt-video" src="https://www.youtube.com/embed/tGLB29V_3IQ?si=q7WB4lVxGtGaHN0s"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe>
