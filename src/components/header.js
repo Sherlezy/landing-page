@@ -51,7 +51,7 @@ export default class Header extends Component {
 
                             <div className='row justify-content-center'>
 
-                                <img src={logoSD23} id="main-logo" className='white-shadow-stronger' alt="Snowdays23 logo: blue snowflake with writing: SNOWDAYS" />
+                                <img src={logoSD23} id="main-logo" className='white-shadow-stronger' alt="Snowdays24 logo: blue snowflake with writing: SNOWDAYS" />
 
                             </div>
 
