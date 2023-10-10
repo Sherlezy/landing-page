@@ -17,16 +17,16 @@ import Separator from './subcomponents/separator';
 export default class Body3 extends Component {
 
 
-    render () {
+    render() {
         return (
 
-            <div className = "wrapper-outside-body-blue relative offset-up-20">
-                <img src={bgMountains} className='relative offset-up-15'  alt="Stylized mountains"/>
+            <div className="wrapper-outside-body-blue relative offset-up-20">
+                <img src={bgMountains} className='relative offset-up-15' alt="Stylized mountains" />
 
                 <div className=' absolute  overlay-1 offset-up-0 offset-right-0 full-width wrapper-outside-body-blue pb-15'>
 
                     <div className='d-xs-block d-lg-none'>
-                            <Separator number={15} ></Separator>
+                        <Separator number={15} ></Separator>
                     </div>
 
 
@@ -34,8 +34,8 @@ export default class Body3 extends Component {
 
                         <div className='col-lg-6 col-10'>
 
-                            <h2 className='h2 font-josefin title text-white'>PARTICIPANTS</h2>
-                            <h5 className='font-poppins normal-text text-white'>some of the participating Business Schools & Universities from the past years</h5>
+                            <h2 className='h2 font-iskra title text-white'>PARTICIPANTS</h2>
+                            <h5 className='font-iskra normal-text text-white'>some of the participating Business Schools & Universities from the past years</h5>
 
                         </div>
 
@@ -46,24 +46,24 @@ export default class Body3 extends Component {
                     <div className='row justify-content-center'>
 
                         <div className='col-10 mt-5'>
-                                    <LogosTable logos = {[Bocconi, ESB, FS, Maastricht, NOVA, TUM, UNITN, WHU]}></LogosTable>
+                            <LogosTable logos={[Bocconi, ESB, FS, Maastricht, NOVA, TUM, UNITN, WHU]}></LogosTable>
 
                         </div>
 
                     </div>
-     
+
 
                 </div>
 
                 <div className='relative blue-separator-sm'></div>
 
-                <div className= "d-xs-block d-lg-none ">
+                <div className="d-xs-block d-lg-none ">
                     <div className='relative blue-separator-md'></div>
                 </div>
-                
+
 
             </div>
-            
+
         )
     }
 }

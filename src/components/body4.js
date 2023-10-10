@@ -25,24 +25,24 @@ import Separator from './subcomponents/separator';
 export default class Body4 extends Component {
 
 
-    render () {
+    render() {
         return (
 
             <div className='wrapper-outside-body overlay-1 relative offset-up-20 '>
-                
+
                 <div className='wrapper-outside-body relative  overlay-1 offset-down-0 mb-5'>
 
-                <div className='d-xs-block d-lg-none'>
+                    <div className='d-xs-block d-lg-none'>
                         <Separator number={20} ></Separator>
-                </div>
+                    </div>
 
 
                     <div className='row justify-content-center' >
 
-                        <div className='col-lg-6 col-10'> 
+                        <div className='col-lg-6 col-10'>
 
-                            <h2 className='title font-josefin '>SPONSORS & PARTNERS</h2>
-                            <h5 className='font-poppins normal-text'>we had the great opportunity to work with brands like:</h5>
+                            <h2 className='title font-iskra '>SPONSORS & PARTNERS</h2>
+                            <h5 className='font-iskra normal-text'>we had the great opportunity to work with brands like:</h5>
 
                         </div>
 
@@ -50,27 +50,27 @@ export default class Body4 extends Component {
 
                         <div className='col-lg-8 col-10 mt-3'>
                             <div className='my-4'>
-                                <SponsorsRoll logos={[alpenstoff, clipper, fischer, loacker, marlene, pompadour, redBull, salewa]}/>
+                                <SponsorsRoll logos={[alpenstoff, clipper, fischer, loacker, marlene, pompadour, redBull, salewa]} />
                             </div>
                         </div>
                     </div>
 
                 </div>
 
-                <img src={bgMountains2} className="absolute full-width offset-right-0 offset-up-15"  alt="Stylized mountains"/>    
+                <img src={bgMountains2} className="absolute full-width offset-right-0 offset-up-15" alt="Stylized mountains" />
 
 
                 <div className='row justify-content-center mt-5 relative m-0'>
                     <div className='col-12'>
                         <div class="mt-5 p-0 w-100">
-                            <ImagesCarousel images={[img1Redbull, img2Marlene, img3Redbull, img4Flixbus, img5Alpenstoff, img6Clipper]} intervalMs={4000}/>
+                            <ImagesCarousel images={[img1Redbull, img2Marlene, img3Redbull, img4Flixbus, img5Alpenstoff, img6Clipper]} intervalMs={4000} />
                         </div>
                     </div>
                 </div>
 
 
             </div>
-            
+
         )
     }
 }
