@@ -96,7 +96,7 @@ export default class Body5 extends Component {
                                 <div className='col-lg-8 col-10'>
 
                                     <h2 className='text-white font-iskra subtitle'>CONTACT INFORMATION</h2>
-                                    <h5 className='font-iskra normal-text text-white'>info@snowdays.it</h5>
+                                    <h5 className='font-iskra normal-text text-white'>Snowdays@unibz.it</h5>
 
                                 </div>
 
