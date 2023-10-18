@@ -61,7 +61,7 @@ export default class Body1 extends Component {
                     <div className='col-lg-6 col-10'>
 
                         <h5 className='font-iskra normal-text text-white' id="video-description" >
-                            Year after year, Snowdays grew steadily and now, after more than 10 years, participants are more than 750 and they come from the best universities in Europe.
+                            Year after year, Snowdays grew steadily and now, after more than 20 years, participants are more than 750 and they come from the best universities in Europe.
                         </h5>
 
                     </div>
